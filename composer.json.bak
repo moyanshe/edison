@@ -1,0 +1,35 @@
+{
+  "name": "zyb/edison",
+  "type": "library",
+  "description": "a object-oriented kit base odp",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "autoload": {
+    "classmap": [
+
+    ],
+    "files": [
+      "./Support/Functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0.0",
+
+    "filp/whoops": "^2.1",
+    "symfony/var-dumper": "^3.3",
+    "symfony/event-dispatcher":"^3.3",
+    "guzzlehttp/guzzle":"6.3.0"
+  },
+  "require-dev": {
+  }
+}
