@@ -13,5 +13,6 @@ if (!function_exists('dd')) {
         } else {
             var_dump($value);
         }
+        exit();
     }
 }
